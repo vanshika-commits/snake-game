@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+.body{
+    background:linear-gradient(green,yellow);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    
+    background-color: yellowgreen;
+    width: 90vmin;
+    height: 90vmin;
+    border:3px solid black;
+    display: grid;
+    row-gap: 2px;
+    column-gap: 2px;
+
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+
+}
+.head{
+    background: linear-gradient(red,purple);
+}
+.food{
+    background-color: purple;
+}
